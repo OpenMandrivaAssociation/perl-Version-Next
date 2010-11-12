@@ -1,9 +1,9 @@
 %define upstream_name    Version-Next
-%define upstream_version 0.001
+%define upstream_version 0.002
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Increment module version numbers simply and correctly
 License:    GPL+ or Artistic
