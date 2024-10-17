@@ -8,7 +8,7 @@ Release:	5
 Summary:	Increment module version numbers simply and correctly
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Version/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
