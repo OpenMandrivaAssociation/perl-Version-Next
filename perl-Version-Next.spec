@@ -1,15 +1,15 @@
 %define upstream_name    Version-Next
-%define upstream_version 0.002
+%define upstream_version 1.000
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Increment module version numbers simply and correctly
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Version/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/dagolden/Version-Next
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Version-Next-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
