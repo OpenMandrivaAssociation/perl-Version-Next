@@ -1,15 +1,13 @@
 %define upstream_name    Version-Next
-%define upstream_version 1.000
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	1.000
+Release:	2
 
 Summary:	Increment module version numbers simply and correctly
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/dagolden/Version-Next
-Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Version-Next-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/Version-Next-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -32,7 +30,7 @@ If more complex version manipulation is necessary, you may wish to consider
 the Perl::Version manpage.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
